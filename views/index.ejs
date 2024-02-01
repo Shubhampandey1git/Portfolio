@@ -53,26 +53,29 @@
     </section>
     <section id="about-me">
         <h1 class="heading">>><u>About-Me</u></h1>
-        <div class="image">
-            <img src="/images/Myimg.png" width="350px" height="400px">
-        </div>
-        <div class="about">
-            <h1>Hey!</h1>
-            <h3><u>Shubham Pandey</u> here.</h3>
-            <p class="para" id="about">I am a student at <b>Bharti Vidyapeeth University College of Engineering,
-                    pune</b>.<br>
-                Currently in the 2nd year(4th sem), pursuing <b>Computer Engineering</b> as my UG degree. I am pursuing
-                to become a <b>full-stack developer</b> someday.<br>
-                I am mostly a self-taught programmer, and have earned a set of useful <a href="#skills"
-                    style="color:aqua"><i><b>skills</b></i></a>.<br>
-                Since I was a child, the world of internet was always a place of mystry for me, thus I developed an
-                interest in this field, wanting to know more and more about how this enormous structure works.<br>
-                <a href="#skills" style="color:aqua">Know more about me below...</a><br /><br />
-                <a href="https://github.com/Shubhampandey1git" target="_blank"><img src="/images/git.png" width="50px"
-                        height="50px"></a>
-                <a href="https://www.linkedin.com/in/shubham-pandey-6a65a524a/" target="_blank"><img
-                        src="/images/linkedin.png" width="50px" height="50px"></a>
-            </p>
+        <div class="about_me">
+            <div class="image">
+                <img src="/images/Myimg.png" width="350px" height="400px">
+            </div>
+            <div class="about">
+                <h1>Hey!</h1>
+                <h3><u>Shubham Pandey</u> here.</h3>
+                <p class="para" id="about">I am a student at <b>Bharti Vidyapeeth University College of Engineering,
+                        pune</b>.<br>
+                    Currently in the 2nd year(4th sem), pursuing <b>Computer Engineering</b> as my UG degree. I am
+                    pursuing
+                    to become a <b>full-stack developer</b> someday.<br>
+                    I am mostly a self-taught programmer, and have earned a set of useful <a href="#skills"
+                        style="color:aqua"><i><b>skills</b></i></a>.<br>
+                    Since I was a child, the world of internet was always a place of mystry for me, thus I developed an
+                    interest in this field, wanting to know more and more about how this enormous structure works.<br>
+                    <a href="#skills" style="color:aqua">Know more about me below...</a><br /><br />
+                    <a href="https://github.com/Shubhampandey1git" target="_blank"><img src="/images/git.png"
+                            width="50px" height="50px"></a>
+                    <a href="https://www.linkedin.com/in/shubham-pandey-6a65a524a/" target="_blank"><img
+                            src="/images/linkedin.png" width="50px" height="50px"></a>
+                </p>
+            </div>
         </div>
     </section>
     <section id="skills">
@@ -208,7 +211,9 @@
                                 <%=article.createdAt.toLocaleDateString() %>
                             </div>
                             <div class="card-text mb-2">
-                                <i><%=article.message%></i>
+                                <i>
+                                    <%=article.message%>
+                                </i>
                             </div>
                         </div>
                     </div>
@@ -235,7 +240,7 @@
             </svg>
         </a>
     </div>
-    <br/><br/>
+    <br /><br />
     <script>
         function showSidebar() {
             const sidebar = document.querySelector('#sidebar')
