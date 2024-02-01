@@ -357,4 +357,8 @@ nav a{
     margin-bottom: 10px;
     text-decoration: underline;
 }
-  
+
+#recmessage{
+    min-width: 250px;
+    min-height: 150px;
+}
