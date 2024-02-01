@@ -234,6 +234,10 @@ nav a{
     background-color: rgb(255, 249, 159);
     animation: c 1s linear forwards;
 }
+#php{
+    background-color: rgb(255, 0, 0);
+    animation: php 1s linear forwards;
+}
 
 #html span{
     border: 1px solid rgb(159, 159, 255);
@@ -259,6 +263,9 @@ nav a{
 #c span{
     border: 1px solid rgb(255, 249, 159);
 }
+#php span{
+    border: 1px solid rgb(255, 0, 0);
+}
 @keyframes html{
     100%{width:85%}
 }
@@ -282,6 +289,9 @@ nav a{
 }
 @keyframes c{
     100%{width:77%}
+}
+@keyframes php{
+    100%{width:45%}
 }
 
 .links{
